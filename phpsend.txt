@@ -1,0 +1,58 @@
+Microsoft Windows [Version 10.0.19043.1110]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Prashant Parmar>cd c:\xampp\composer
+The system cannot find the path specified.
+
+C:\Users\Prashant Parmar>cd c:\xampp\
+
+c:\xampp>cd composer
+The system cannot find the path specified.
+
+c:\xampp>cd composer
+The system cannot find the path specified.
+
+c:\xampp>cd htdocs
+
+c:\xampp\htdocs>cd work
+
+c:\xampp\htdocs\work>cd blog
+
+c:\xampp\htdocs\work\blog>composer require phpmailer/phpmailer
+No composer.json in current directory, do you want to use the one at C:\xampp\htdocs\work? [Y,n]?
+Using version ^6.5 for phpmailer/phpmailer
+./composer.json has been updated
+Running composer update phpmailer/phpmailer
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 1 install, 0 updates, 0 removals
+  - Locking phpmailer/phpmailer (v6.5.0)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 1 install, 0 updates, 0 removals
+  - Downloading phpmailer/phpmailer (v6.5.0)
+  - Installing phpmailer/phpmailer (v6.5.0): Extracting archive
+5 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Generating autoload files
+1 package you are using is looking for funding.
+Use the `composer fund` command to find out more!
+
+c:\xampp\htdocs\work\blog>composer require phpmailer/phpmailer
+No composer.json in current directory, do you want to use the one at C:\xampp\htdocs\work? [Y,n]? n
+Using version ^6.5 for phpmailer/phpmailer
+./composer.json has been created
+Running composer update phpmailer/phpmailer
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 1 install, 0 updates, 0 removals
+  - Locking phpmailer/phpmailer (v6.5.0)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 1 install, 0 updates, 0 removals
+  - Installing phpmailer/phpmailer (v6.5.0): Extracting archive
+5 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Generating autoload files
+1 package you are using is looking for funding.
+Use the `composer fund` command to find out more!
+
+c:\xampp\htdocs\work\blog>

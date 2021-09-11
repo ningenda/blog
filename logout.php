@@ -1,0 +1,13 @@
+<?php
+session_start();
+if(isset($_SESSION['loggedin'])||isset($_COOKIE['UID'])){
+session_destroy();
+setcookie('UID',$row['id'],time()+60*60*24*30);
+header('Location:welcome.php');
+#header('location:login.php');
+}
+else
+{
+    header('Location:welcome.php');
+}
+?>
